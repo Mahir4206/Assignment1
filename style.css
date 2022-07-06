@@ -36,6 +36,24 @@ body {
     text-align: center;
     font-size: 60px;
     font-weight: 800;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+
+.half-width {
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 600px;
+}
+
+.half-width image {
+    width: 10%;
+}
+
+#half-width2 {
+    margin-right: 500px;
+    padding-right: 500px;
 }
 
 #height-adjust {
@@ -58,6 +76,7 @@ body {
 }
 
 #red-box {
+    color: tomato;
     background-color: blanchedalmond;
     border: 3px solid tomato;
     border-radius: 5px;
@@ -96,37 +115,42 @@ body {
     margin-right: 750px;
 }
 
-.flexible-boxes2 {
+.survive {
     display: flex;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
 }
 
 #box1 {
     background-color: bisque;
-    margin: 10px;
+    margin: 50px;
     border-radius: 5px;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
 }
 
 #box2 {
     background-color: cornflowerblue;
-    margin: 10px;
+    margin: 50px;
     border-radius: 5px;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
 }
 
 #box3 {
     background-color: khaki;
-    margin: 10px;
+    margin: 50px;
     border-radius: 5px;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
 }
 
@@ -157,7 +181,6 @@ body {
     background-color: rgb(218, 218, 218);
     border: none;
     border-radius: 5px;
-    outline: none;
 }
 
 .submittion ::placeholder {
